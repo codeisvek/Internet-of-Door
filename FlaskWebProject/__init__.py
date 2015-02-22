@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 application = 0
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def hello_world():
     temp = application
     if application != 0:
