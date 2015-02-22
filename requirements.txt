@@ -1,2 +1,10 @@
-Flask<1
-Twilio>3
+Flask==0.10.1
+gunicorn==19.2.1
+httplib2==0.9
+itsdangerous==0.24
+Jinja2==2.7.3
+MarkupSafe==0.23
+pytz==2014.10
+six==1.9.0
+twilio==3.7.1
+Werkzeug==0.10.1
